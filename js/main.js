@@ -612,3 +612,36 @@ const accordion = () => {
 
 accordion();
 });
+
+
+/**Test */
+// //получить кнопку (кнопка = obj)
+// const button = document.querySelector('.but');
+// button.addEventListener('click', (event) => { 
+//   const target = event.target;//получ. объект, который инициализирует событие
+//   console.log(event);
+//   if(target.closest('.but')) {//возвращяем ближайщего родителя
+//       const name = button.dataset.name;//получаем дата атрибут
+//       const id = button.getAttribute('data-id');//получаем дата атрибут
+//       button.disabled = true//блокируем кнопку
+//   }
+// }); 
+
+
+//множество кнопок
+// const buttons = document.querySelectorAll('.but');
+// buttons.forEach( function(button, i) {
+//     button.addEventListener('click', btnEventHendler );
+// });
+
+// function btnEventHendler(event) {
+//     const target = event.target;
+//     if(target.closest('.but')) {
+//       const stepBtn = target.closest('.but');
+//       const id = stepBtn.getAttribute('data-id');
+//       console.log(id);
+//     }
+// }
+
+//console.log(buttons);
+/**Test */

@@ -136,6 +136,7 @@ header {
 }
 
 .header__top-logo img {
+  max-width: 100px;
   width: 100px;
   margin-bottom: 5px;
 }
@@ -3374,6 +3375,34 @@ section .swiper.swiper-reviews {
     margin-bottom: 40px;
     display: block;
     font-size: 20px;
+  }
+  .contacts-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .contacts-img img {
+    top: 40px;
+    right: auto;
+    min-width: 300px;
+    width: 100%;
+  }
+  .section-contacts::before {
+    z-index: -2;
+    bottom: 0;
+    width: 100%;
+  }
+  .contacts-img-title {
+    font-size: 25px;
+  }
+  .contacts-img {
+    height: 160px;
+    width: 100%;
+  }
+  .contacts-form {
+    padding-top: 30px;
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

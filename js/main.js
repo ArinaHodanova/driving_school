@@ -516,20 +516,20 @@ jQuery(document).ready(function ($) {
         });
         $('.teacher__text-deck').readmore({
           speed: 900,
-          maxHeight: 145,
+          maxHeight: 15,
           moreLink: '<a href="#" class="readmore_btn-bottom"><span>Читать весь отзыв</span></a>',
           lessLink: '<a href="#" class="readmore_btn-top"><span>Скрыть<span></a>',
         });
         
       });
     
-       // Если флаг включённости опущен, то включим и поднимем флаг
+      // Если флаг включённости опущен, то включим и поднимем флаг
         if(slickSliderActive == false) {
            
             slickSliderActive = true;
           }
         } 
-    // Иначе (вьюпорт не уже чем 720px)
+      // Иначе (вьюпорт не уже чем 720px)
         else {
 
             // Если флаг включённости поднят, выключаем и опускаем флаг

@@ -2243,6 +2243,7 @@ section .swiper.swiper-reviews {
 }
 
 .nav-tab__category {
+  z-index: 2000000;
   text-decoration: none;
   overflow: hidden;
   max-height: 99px;
@@ -3277,7 +3278,7 @@ section .swiper.swiper-reviews {
     width: 100%;
   }
   .header__adress {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .header__bottom-mobile .header__adress {
     margin-bottom: 0;
@@ -3403,6 +3404,15 @@ section .swiper.swiper-reviews {
   .contacts-form {
     padding-top: 30px;
     max-width: 100%;
+  }
+  .tabs__swiper .swiper-pagination-fraction {
+    top: 75px;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+  }
+  .tab-pane__category {
+    padding: 40px 0 0 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

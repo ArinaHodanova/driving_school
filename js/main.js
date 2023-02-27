@@ -164,7 +164,7 @@ function initSliders() {
         spaceBetween: 20,
         slidesPerView: 1,
           grid: {
-             rows: 2,
+             rows: 1,
           },
         },
         960: {
